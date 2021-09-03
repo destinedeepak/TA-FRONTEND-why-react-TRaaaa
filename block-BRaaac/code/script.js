@@ -50,13 +50,9 @@ function createUI(root, movieList){
         let li = createElement(
         'li',
         {classList: 'each-movie'},
-        createElement('span', {classList: 'movie'}, movie.title)
+        createElement('span', {classList: 'movie'}, movie.title),
+        createElement('button', {id:index, function: addEventListener('click', handleClick)}, movie.isWatched ? 'Watched' : 'TO Watch')
          )
-        let button =  document.createElement('button');
-        button.id = index;
-        button.innerText = movie.isWatched ? 'Watched' : 'TO Watch';
-        button.addEventListener('click', handleClick)
-        li.append(button);
         root.append(li);
     })
 }
