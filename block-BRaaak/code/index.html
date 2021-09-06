@@ -39,20 +39,23 @@
         </article>
     </div> )
     }
-    let cards = (
-        <>
-        <Card
-           cardInfo = {articles[0]}
-        />
-        <Card
-           cardInfo = {articles[1]}
-        />
-        <Card
-           cardInfo = {articles[2]}
-        />
-        </>
-    )
-    ReactDOM.render(cards, document.getElementById('root'))
+    // let cards = (
+    //     <>
+    //     <Card
+    //        cardInfo = {articles[0]}
+    //     />
+    //     <Card
+    //        cardInfo = {articles[1]}
+    //     />
+    //     <Card
+    //        cardInfo = {articles[2]}
+    //     />
+    //     </>
+    // )
+    function Articles(){
+        return articles.map((article) => <Card cardInfo = {article}/>)
+    } 
+    ReactDOM.render(<Articles/>, document.getElementById('root'))
     </script>
 </body>
 </html>
