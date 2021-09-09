@@ -1,4 +1,4 @@
-import data from '../data';
+import data from '../data/data';
 function Articles(){
     return (
          <section className="articles container">
@@ -6,8 +6,8 @@ function Articles(){
                  Articles
              </h2>
              <div className="flex wrap">
-                 {data.map((article) =>(
-                    <Article {...article} />
+                 {data.map((article, index) =>(
+                    <Article key={index } {...article} />
                  ))}
              </div>
          </section>
