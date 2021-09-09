@@ -19,18 +19,15 @@
   - Babel helps in writing JSX
 
 3.
-
 - Create three button with text `Arya`, `John` and `Bran`
 - When clicked on any button alert message with the name like `Hello Arya|John|Bran`
 - Don't write three different click handler function
 - One function should be able to handle this.
 
 4.
-
 - Do the same this you did above in (3) but use `class` component to do this
 
 5.
-
 - Use the data given below
 
 ```js
