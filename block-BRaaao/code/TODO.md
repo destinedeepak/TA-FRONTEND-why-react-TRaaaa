@@ -1,4 +1,4 @@
-#### Create Article Card Using JSX
+ #### Create Article Card Using JSX
 
 - Create a news app similar to the one give in preview (named Gizmo).
 - Break down the home page into different components.
