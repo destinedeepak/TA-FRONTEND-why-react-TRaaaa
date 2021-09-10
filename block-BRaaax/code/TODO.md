@@ -14,7 +14,7 @@
 
 | Type          | Values                           | Default    |
 | :------------ | :------------------------------- | :--------- |
-| `ButtonSizes` | `SMALL` `MEDIUM` `LARGE`         | `MEDIUM`   |
+| `ButtonSizes` | `SMALL` `MEDIUM` ` LARGE`         | `MEDIUM`   |
 | `ButtonTypes` | `PRIMARY` `SECONDARY` `TERTIARY` | `PRIMARY ` |
 
 ### Example of using the Button component
@@ -24,7 +24,7 @@
   label="Button"
 />
 <Button
-  size="small"
+  size="small" 
   label="Button"
   type="secondary"
 />
