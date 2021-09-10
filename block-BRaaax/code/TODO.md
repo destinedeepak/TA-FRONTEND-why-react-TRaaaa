@@ -1,6 +1,6 @@
 # Button Design System
 
-## Properties That The Button Component Can Be Passed
+## Properties That The Button Component Can  Be  Passed
 
 | Property         | Description                         | Type          | Required |
 | :--------------- | :---------------------------------- | :------------ | :------- |
