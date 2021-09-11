@@ -1,5 +1,6 @@
+import {buttonSizes, buttonTypes} from '../buttonInfo';
 function Button(props){
-    let {type='primary', size='medium'} = props;
+    let {type=buttonSizes.PRIMARY, size=buttonTypes.MEDIUM} = props;
     function getStyles(){
         return `button button-${size} button-${type}`
     }
