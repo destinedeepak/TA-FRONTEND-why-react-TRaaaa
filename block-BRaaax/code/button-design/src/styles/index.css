@@ -18,3 +18,12 @@
     padding: 14px 60px;
     font-size: 1.1rem;
 }
+.button-primary {
+    background: blue;
+}
+.button-secondary {
+    background: red;
+}
+.button-tertiary {
+    background: green;
+}
